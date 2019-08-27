@@ -9,7 +9,7 @@ tags:
 - Demo
 - Forestry
 layout: post
-banner_image: "/uploads/2019/08/27/2019-01-10_23andMe-genome_v5_Full.zip"
+banner_image: "/uploads/2018/12/07/compass.jpg"
 
 ---
 Welcome to the Belkirk College of Engineering Demo Site!
