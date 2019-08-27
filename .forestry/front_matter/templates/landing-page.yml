@@ -41,8 +41,8 @@ fields:
     required: false
     schema:
       format: markdown
-- name: services
-  label: Services
+- name: rdcl_works
+  label: How It Works
   type: field_group_list
   fields:
   - name: heading
@@ -60,8 +60,15 @@ fields:
     type: file
     hidden: false
     default: ''
+  - name: how_it_works_
+    type: file
+    config:
+      maxSize: 250
+    label: 'How it Works '
+    description: Image of How It Works
   hidden: false
   default: ''
+  description: How RDCL Personalizes and Optimizes your Nutrition
 - type: boolean
   name: show_news
   label: Show News?
@@ -69,6 +76,11 @@ fields:
 - type: image_gallery
   name: partners
   label: Partner Logos
+- name: products_rdcl
+  type: image_gallery
+  config: {}
+  label: Products
+  description: Our Products
 - type: boolean
   name: show_staff
   label: Show Staff?
@@ -76,7 +88,8 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: true
+  hidden: false
   default: home
+  description: Layout
 pages:
 - index.md
